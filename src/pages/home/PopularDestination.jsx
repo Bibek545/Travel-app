@@ -40,27 +40,6 @@ const destinations = [
         ))
 
         }
-
-
-
-
-
-            {/* <div className='w-full rounded-xl overflow-hidden shadow-md p-3'>
-                <img src='sydney.jpg' alt='sydney' className='w-full aspect-[4/3] object-cover'></img>
-
-                <div>
-                    <h4>Sydney</h4>
-                    <p>Australia</p>
-                </div>
-            </div>
-            <div className='w-full rounded-xl overflow-hidden shadow-md p-3'>
-                <img src='maldives.jpg' alt='maldives' className='w-full aspect-[4/3] object-cover'></img>
-
-                <div>
-                    <h4>Island</h4>
-                    <p>Maldives</p>
-                </div>
-            </div> */}
         </>
     )
 }

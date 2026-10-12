@@ -34,7 +34,7 @@ const Home = () => {
                             <h3 className='font-xl font-bold'>Popular Destinations</h3>
                             <p>Explore some of the most loved places around the world.</p>
                         </div>
-                        <div className='pr-'>
+                        <div className='pr- '>
                             <p>View all destinations </p>
                         </div>
 
