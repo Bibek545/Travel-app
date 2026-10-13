@@ -8,21 +8,26 @@ const Home = () => {
         <>
             <div>
                 <Hero />
-                <div className='flex justify-between items-center gap-10 p-3 bg-zinc-200 rounded-lg shadow-md'>
+                <div 
+                    className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
+                gap-10 p-3 bg-zinc-200 rounded-lg shadow-md'>
+
+                {/* // className='flex justify-between items-center 
+                // gap-10 p-3 bg-zinc-200 rounded-lg shadow-md'> */}
                     <div>
-                        <h6>Discover</h6>
+                        <h6 className='text-xl font-bold' >Discover</h6>
                         <p>Find amazing destinations and hidden gem around the world</p>
                     </div>
                     <div>
-                        <h6>Plan</h6>
+                        <h6 className='text-xl font-bold'>Plan</h6>
                         <p>Create personalised trips with your favourite places.</p>
                     </div>
                     <div>
-                        <h6>Save</h6>
+                        <h6 className='text-xl font-bold'>Save</h6>
                         <p>Keep track of places you love and build your travel lists.</p>
                     </div>
                     <div>
-                        <h6>Explore Together</h6>
+                        <h6 className='text-xl font-bold'>Explore Together</h6>
                         <p>Plan trips with friends and share your adventures.</p>
                     </div>
 
