@@ -2,8 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
+
         <>
-            <section className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 gap-4 p-5 bg-olive-200'>
+        <div className='bg-olive-200 p-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 gap-4 p-5 '>
                 <div>
                     <h4 className='text-2xl font-bold'>Come With Me</h4>
                     <p>Discover new places, plan unforgettable adventures, and explore the world together.</p>
@@ -29,7 +31,15 @@ const Footer = () => {
                         <p>Youtube</p>
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <div className='flex justify-between items-center border-t pt-2 mt-2 sm:flex-row'>
+                <p>2026 Come With Me. All rights reserved.</p>
+                <p>Made for explorers</p>
+
+            </div>
+        </div>
+
         </>
     )
 }

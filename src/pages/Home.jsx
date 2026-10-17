@@ -33,7 +33,7 @@ const Home = () => {
 
                 </div>
                 {/* popular destination */}
-                <div className='flex flex-col bg--200 rounded-lg shadow-md p-5'>
+                <div className='flex flex-col bg--200 rounded-lg shadow-md p-5 m-5'>
                     <div className='flex justify-between'>
                         <div className=''>
                             <h3 className='font-xl font-bold'>Popular Destinations</h3>
@@ -53,7 +53,7 @@ const Home = () => {
 
                 {/* travel inspiration */}
 
-                <div className='flex flex-col bg--200 rounded-lg shadow-md p-5'>
+                <div className='flex flex-col bg--200 rounded-lg shadow-md p-5 m-5'>
                     <div className='flex justify-between'>
                         <div>
                             <h3 className='font-xl font-bold'>Travel Inspiration</h3>
